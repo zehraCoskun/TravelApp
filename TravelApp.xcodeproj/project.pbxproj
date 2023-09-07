@@ -13,6 +13,8 @@
 		A605885B2AA9AC47008F102E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60588592AA9AC47008F102E /* Main.storyboard */; };
 		A605885D2AA9AC48008F102E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A605885C2AA9AC48008F102E /* Assets.xcassets */; };
 		A60588602AA9AC48008F102E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A605885E2AA9AC48008F102E /* LaunchScreen.storyboard */; };
+		F08760EA2AA9FD3E0025B1E5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08760E82AA9FD3E0025B1E5 /* LoginViewController.swift */; };
+		F08760EB2AA9FD3E0025B1E5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08760E92AA9FD3E0025B1E5 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A605885C2AA9AC48008F102E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A605885F2AA9AC48008F102E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A60588612AA9AC48008F102E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08760E82AA9FD3E0025B1E5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F08760E92AA9FD3E0025B1E5 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		A60588522AA9AC47008F102E /* TravelApp */ = {
 			isa = PBXGroup;
 			children = (
+				F08760E72AA9FD270025B1E5 /* LoginScreen */,
 				A60588532AA9AC47008F102E /* AppDelegate.swift */,
 				A60588552AA9AC47008F102E /* SceneDelegate.swift */,
 				A60588572AA9AC47008F102E /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				A60588612AA9AC48008F102E /* Info.plist */,
 			);
 			path = TravelApp;
+			sourceTree = "<group>";
+		};
+		F08760E72AA9FD270025B1E5 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F08760E82AA9FD3E0025B1E5 /* LoginViewController.swift */,
+				F08760E92AA9FD3E0025B1E5 /* LoginViewController.xib */,
+			);
+			path = LoginScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08760EB2AA9FD3E0025B1E5 /* LoginViewController.xib in Resources */,
 				A60588602AA9AC48008F102E /* LaunchScreen.storyboard in Resources */,
 				A605885D2AA9AC48008F102E /* Assets.xcassets in Resources */,
 				A605885B2AA9AC47008F102E /* Main.storyboard in Resources */,
@@ -138,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08760EA2AA9FD3E0025B1E5 /* LoginViewController.swift in Sources */,
 				A60588582AA9AC47008F102E /* ViewController.swift in Sources */,
 				A60588542AA9AC47008F102E /* AppDelegate.swift in Sources */,
 				A60588562AA9AC47008F102E /* SceneDelegate.swift in Sources */,
